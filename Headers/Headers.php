@@ -60,8 +60,9 @@ class Headers
     /**
      * Set header name & value
      *
-     * @param string $key
-     * @param string $val
+     * @param  string $key
+     * @param  string $val
+     * @return object $this
      */
     public function set($key, $val = null) {
         if (is_array($key)) {
@@ -110,7 +111,7 @@ class Headers
      * Remove header
      * Note: The removed header will not be sent
      *
-     * @param string $key
+     * @param  string $key
      * @return object $this
      */
     public function remove($key) {
