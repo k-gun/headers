@@ -40,6 +40,7 @@ print $h->get('cache-control');
 
 - Removing headers
 
+```php
 // remove one
 $h->remove('Cache-Control');
 $h->remove('cache-control');
