@@ -53,7 +53,7 @@ Note: Header object can play with self-own headers only
 header('Content-Type: text/plain');
 // ...
 
-// these don't work
+// these won't work for 'Content-Type' if not presented in object
 $h->remove('Content-Type');
 $h->removeAll();
 ```
