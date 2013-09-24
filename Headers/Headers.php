@@ -18,7 +18,7 @@
 /**
  * @class Headers v0.1
  *
- * Headers object.
+ * Headers object
  */
 class Headers
 {
