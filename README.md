@@ -48,7 +48,7 @@ $h->remove('cache-control');
 $h->removeAll();
 ```
 
-Note: Object can play only self-own headers
+Note: Header object can play with self-own headers only
 ```php
 header('Content-Type: text/plain');
 // ...
